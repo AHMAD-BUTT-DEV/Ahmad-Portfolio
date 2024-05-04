@@ -140,6 +140,7 @@ nav {
 
 .nav-menu-btn {
     display: none;
+    color: white;
 }
 
 .nav-menu-btn i {
@@ -736,6 +737,9 @@ footer {
 
     .project-box {
         width: 80%;
+    }
+    #contact .row{
+        margin-left:-10px ;
     }
 
 }
