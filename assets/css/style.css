@@ -105,6 +105,7 @@ nav {
 
 .nav-logo {
     position: relative;
+    width: 125px;
 }
 
 .nav-name {
@@ -118,6 +119,7 @@ nav {
     top: -15px;
     right: -20px;
     font-size: 5em;
+    width: 34px;
     color: var(--text-color-second);
 }
 
@@ -664,7 +666,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: rgba(255, 255, 255, 0.7);
+        background: #2d2626b3;
         backdrop-filter: blur(20px);
         width: 100%;
         min-height: 450px;
@@ -703,7 +705,7 @@ footer {
     .featured-image {
         order: 1;
         justify-content: center;
-        min-height: 150px;
+        min-height: 180px;
         width: 100%;
         margin-top: 65px;
     }
@@ -730,6 +732,9 @@ footer {
     .about-info,
     .contact-info {
         width: 100%;
+        padding: 8px;
+        margin-left: 13px;
+        height: 216px
     }
 
     .project-container {
